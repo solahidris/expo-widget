@@ -2,7 +2,7 @@
 module.exports = {
   type: "widget",
   name: "LockWidget",
-  deploymentTarget: "16.0",
+  deploymentTarget: "17.0",
   colors: {
     $widgetBackground: { color: "#000000", darkColor: "#000000" },
     $accent: { color: "#ffffff", darkColor: "#ffffff" },
