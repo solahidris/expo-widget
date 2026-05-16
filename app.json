@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mainmo.expowidget",
+      "bundleIdentifier": "com.solah.expowidget",
       "appleTeamId": "A1B2C3D4E5"
     },
     "android": {
