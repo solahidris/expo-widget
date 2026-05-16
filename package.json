@@ -4,13 +4,13 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "@bacons/apple-targets": "^4.0.7",
-    "eas-cli": "^18.13.0",
+    "@bacons/apple-targets": "^3.0.7",
+    "@expo/prebuild-config": "^54.0.8",
     "expo": "~54.0.33",
     "expo-dev-client": "^55.0.34",
     "expo-status-bar": "~3.0.9",

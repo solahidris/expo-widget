@@ -102,10 +102,3 @@ struct LockWidget: Widget {
         ])
     }
 }
-
-#Preview(as: .accessoryRectangular) {
-    LockWidget()
-} timeline: {
-    WordEntry(date: .now, word: wordForMinute(0))
-    WordEntry(date: .now + 60, word: wordForMinute(1))
-}
