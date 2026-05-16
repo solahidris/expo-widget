@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo-widget",
     "slug": "expo-widget",
+    "owner": "emailsolah",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -31,6 +32,23 @@
     "plugins": [
       "expo-dev-client",
       "@bacons/apple-targets"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "build": {
+          "experimental": {
+            "ios": {
+              "appExtensions": [
+                {
+                  "bundleIdentifier": "com.solah.expowidget.widget",
+                  "targetName": "LockWidget"
+                }
+              ]
+            }
+          }
+        },
+        "projectId": "ee413bce-a4b0-4068-8f53-839254b39b3b"
+      }
+    }
   }
 }
